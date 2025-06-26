@@ -2,6 +2,7 @@ body {
   background-color: #888888; /* Gray */
 }
 :root {
+  --chance-color: #000000; /* Black */
   --ryan-color: #5CB3FF; /* Crystal Blue */
   --courtney-color: #4169E1; /* Royal Blue */
   --mom-color: #FF9F00; /* Orange Peel*/
@@ -11,7 +12,7 @@ body {
   --gameroom-color: #39FF14; /* Neon Green */
   --home-color: #f5f5dc; /* Pale Cream */
 }
-
+.chance-link { color: var(--chance-color); }
 .ryan-link { color: var(--ryan-color); }
 .courtney-link { color: var(--courtney-color); }
 .mom-link { color: var(--mom-color); }
