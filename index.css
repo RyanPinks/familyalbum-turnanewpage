@@ -2,6 +2,7 @@ body {
   background-color: #f5f5dc; /* Pale Cream */
 }
 :root {
+  --chance-color: #000000; /* Black */
   --ryan-color: #5CB3FF; /* Crystal Blue */
   --courtney-color: #4169E1; /* Royal Blue */
   --mom-color: #FF9F00; /* Orange Peel*/
