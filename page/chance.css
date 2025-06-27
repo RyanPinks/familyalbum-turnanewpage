@@ -2,6 +2,9 @@ body {
   background-image: url("../image/blackcatfur.png");
   background-size: contain;
 }
+h1 {
+  color: #00FFFF; /* Electric Blue */
+}
 :root {
   --chance-color: #000000; /* Black */
   --ryan-color: #5CB3FF; /* Crystal Blue */
