@@ -21,3 +21,7 @@ body {
 .brooke-link { color: var(--brooke-color); }
 .gameroom-link { color: var(--gameroom-color); }
 .home-link { color: var(--home-color); }
+.chance-button {
+  background-color: var(--chance-color);
+  color: white;
+}
