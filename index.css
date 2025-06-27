@@ -1,10 +1,9 @@
-body {
-  background-color: #f5f5dc; /* Pale Cream */
+h1 {
   text-align: center;
 }
 body {
   font-family: Georgia, serif;
-  background-color: #fdfae6;
+  background-color: #f5f5dc; /* Pale Cream */
   color: #333;
   line-height: 1.6;
   padding: 20px;
