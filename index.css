@@ -2,3 +2,37 @@ body {
   background-color: #f5f5dc; /* Pale Cream */
   text-align: center;
 }
+body {
+  font-family: Georgia, serif;
+  background-color: #fdfae6;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.news-header {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #4a3f2f;
+}
+
+.news-article {
+  background-color: #fffdf7;
+  border: 2px solid #ccc5b9;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.news-article h3 {
+  font-style: italic;
+  color: #5a4220;
+}
+
+.news-article p {
+  margin-bottom: 10px;
+}
