@@ -1,0 +1,23 @@
+body {
+  background-color: #39FF14; /* Neon Green */
+}
+:root {
+  --chance-color: #000000; /* Black */
+  --ryan-color: #5CB3FF; /* Crystal Blue */
+  --courtney-color: #4169E1; /* Royal Blue */
+  --mom-color: #FF9F00; /* Orange Peel*/
+  --tyler-color: #888888; /* Gray */
+  --ethan-color: #50C878; /* Emerald Green */
+  --brooke-color: #65000b; /* Rosewood */
+  --gameroom-color: #39FF14; /* Neon Green */
+  --home-color: #f5f5dc; /* Pale Cream */
+}
+.chance-link { color: var(--chance-color); }
+.ryan-link { color: var(--ryan-color); }
+.courtney-link { color: var(--courtney-color); }
+.mom-link { color: var(--mom-color); }
+.tyler-link { color: var(--tyler-color); }
+.ethan-link { color: var(--ethan-color); }
+.brooke-link { color: var(--brooke-color); }
+.gameroom-link { color: var(--gameroom-color); }
+.home-link { color: var(--home-color); }
