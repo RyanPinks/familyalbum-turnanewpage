@@ -1,3 +1,6 @@
+body {
+  text-align: centered
+}
 :root {
   --chance-color: #000000; /* Black */
   --ryan-color: #5CB3FF; /* Crystal Blue */
