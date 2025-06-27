@@ -1,6 +1,7 @@
 body {
   background-image: url("../image/blackcatfur.png");
   background-size: contain;
+  text-align: centered
 }
 h1 {
   color: #00FFFF; /* Electric Blue */
