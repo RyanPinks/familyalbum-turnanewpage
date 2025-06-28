@@ -3,6 +3,7 @@ body {
   background-size: contain;
   text-align: centered
 }
-h1 {
+h1, h2 {
   color: #00FFFF; /* Electric Blue */
+  text-align: centered
 }
