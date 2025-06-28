@@ -1,1 +1,29 @@
+body {
+  background-color: #F1F1F1 /* Light Gray */
+}
+.news-header {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #4a3f2f;
+}
 
+.news-article {
+  background-color: #fffdf7;
+  border: 2px solid #ccc5b9;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.news-article h3 {
+  font-style: italic;
+  color: #5a4220;
+}
+
+.news-article p {
+  margin-bottom: 10px;
+}
