@@ -1,9 +1,8 @@
 body {
   background-image: url("../image/blackcatfur.png");
   background-size: contain;
-  text-align: centered
+  text-align: center
 }
 h1, h2 {
   color: #00FFFF; /* Electric Blue */
-  text-align: centered
 }
