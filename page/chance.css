@@ -8,7 +8,7 @@ h1, h2 {
 }
 .mouse-toy {
   position: absolute;
-  top: 32px;     /* Distance from the top of the container */
+  bottom: 32px;     /* Distance from the bottom of the container */
   left: 23px;    /* Distance from the left of the container */
   width: 80px;   /* Optional: resize the image */
   cursor: pointer;
