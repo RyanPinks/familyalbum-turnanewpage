@@ -4,16 +4,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-   <link rel="stylesheet" href="chance.css">
-   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="chance.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Chance's Page</title>
+  <style>
+    /* You can move this to your CSS file later */
+    #chanceText {
+      color: #00ffff;
+      text-align: center;
+      font-size: 1.8rem;
+      font-family: "Georgia", serif;
+      margin-top: 20px;
+      transition: opacity 0.5s ease;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Hello and welcome to my page. I'm Chance.</h1>
   <img src="../image/chance2.jpeg" alt="Chance Image" width="300" height="300" class="center-image">
-  <h2>I'm the mascot for our families email.</h2>
-  <img src="../image/chanceemailrules.png" alt="Chance's Email Rules Image" with="300" height="600" class="center-image">
+  <h2 id="chanceText">Chance is watching...</h2>
+  <img src="../image/chanceemailrules.png" alt="Chance's Email Rules Image" width="300" height="600" class="center-image">
+
+  <!-- Interactive Script -->
+  <script>
+    const chanceText = document.getElementById("chanceText");
+    let idleTimer = null;
+
+    function updateText(newText) {
+      chanceText.style.opacity = 0;
+      setTimeout(() => {
+        chanceText.textContent = newText;
+        chanceText.style.opacity = 1;
+      }, 500);
+    }
+
+    function goIdle() {
+      updateText("Chance curls up and starts purring...");
+    }
+
+    function resetIdleTimer() {
+      clearTimeout(idleTimer);
+      idleTimer = setTimeout(goIdle, 10000); // 10 seconds idle = nap time
+    }
+
+    // Mouse click interaction
+    document.addEventListener("click", () => {
+      updateText("Chance scurries after the mouse. Hunt Mode: Activated!");
+      resetIdleTimer();
+    });
+
+    // Typing interaction
+    document.addEventListener("keydown", () => {
+      updateText("Chance watches your paws carefully...");
+      resetIdleTimer();
+    });
+
+    // Hover over any link (including footer)
+    document.querySelectorAll("a").forEach(link => {
+      link.addEventListener("mouseover", () => {
+        updateText("Chance sniffs the message suspiciously...");
+        resetIdleTimer();
+      });
+    });
+
+    // Start idle timer initially
+    resetIdleTimer();
+  </script>
 </body>
 
 <footer>
@@ -27,4 +84,5 @@
   <a href="games.html" class="gameroom-button">Game Room</a>
   <a href="thenewsroom.html" class="thenewsroom-button">The News Room</a>
 </footer>
+
 </html>
