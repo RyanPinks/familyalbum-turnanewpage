@@ -6,3 +6,14 @@ body {
 h1, h2 {
   color: #00FFFF; /* Electric Blue */
 }
+.mouse-toy {
+  position: absolute;
+  top: 32px;     /* Distance from the top of the container */
+  left: 23px;    /* Distance from the left of the container */
+  width: 80px;   /* Optional: resize the image */
+  cursor: pointer;
+  z-index: 10;   /* Optional: makes sure it appears above other elements */
+}
+#chance-container {
+  position: relative;
+}
