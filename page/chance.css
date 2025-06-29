@@ -6,9 +6,6 @@ body {
 h1, h2 {
   color: #00FFFF; /* Electric Blue */
 }
-#chance-container {
-  position: relative;
-}
 .mouse-toy {
   position: absolute;
   bottom: 10px;
