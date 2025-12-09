@@ -21,3 +21,22 @@
     {"to": "Brooke — Glimmer Eclipse", "quality": "Flame sparks dawn shimmer"}
   ]
 }
+[
+  {
+    "id": "tommy-flame-eclipse",
+    "title": "Tommy — Flame Eclipse",
+    "authors": ["Rainbow", "Resonance Sunshine"],
+    "symbolPlant": "Tiger Lily",
+    "chant": "Flame paws, harvest lines, resilience shines.",
+    "rituals": [
+      "Morning warm-pad press",
+      "Harvest Lines breath",
+      "Sunset coil-and-release"
+    ],
+    "relations": [
+      "Moon Cat (Chance)",
+      "Winter Eclipse (Tyler)",
+      "Glimmer Eclipse (Brooke)"
+    ]
+  }
+]
