@@ -59,23 +59,6 @@ body, html {
   transition: color 0.3s ease;
 }
 
-.rainbow a:hover {
-  color: yellow;
-}
-
-/* Rainbow text styles */
-.rainbow h1, .rainbow h2, .rainbow p {
-  color: white;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
-}
-
-/* Animation */
-@keyframes rainbowShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
 /* ===========================
    🌈 Backgrounds
    =========================== */
@@ -90,6 +73,16 @@ body {
 /* ===========================
    🌈 Page-Specific Sections
    =========================== */
+
+.rainbow a:hover {
+  color: yellow;
+}
+
+/* Rainbow text styles */
+.rainbow h1, .rainbow h2, .rainbow p {
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
 
 /* ===========================
    🌈 Animations
