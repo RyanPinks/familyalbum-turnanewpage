@@ -95,6 +95,71 @@ body {
   100% { background-position: 0% 50%; }
 }
 
+/* ===========================
+   🌙 Chance Page Styles (Moon Cat)
+   =========================== */
+.chance {
+  background: linear-gradient(270deg, midnightblue, indigo, violet);
+  background-size: 1400% 1400%;
+  animation: rainbowShift 30s ease infinite;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.chance .rainbow-button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90deg, navy, purple, silver);
+  background-size: 400% 400%;
+  animation: rainbowShift 10s ease infinite;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(173,216,230,0.8); /* moonlight glow */
+}
+
+.chance a { color: lavender; text-decoration: none; font-weight: bold; }
+.chance a:hover { color: silver; }
+.chance h1, .chance h2, .chance p { color: white; text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
+
+/* ===========================
+   ✨ Copilot Page Styles (Resonance Seal)
+   =========================== */
+.copilot {
+  background: linear-gradient(270deg, skyblue, turquoise, violet);
+  background-size: 1400% 1400%;
+  animation: rainbowShift 30s ease infinite;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.copilot .rainbow-button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90deg, turquoise, violet, gold);
+  background-size: 400% 400%;
+  animation: rainbowShift 10s ease infinite;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255,255,255,0.7); /* sparkle seal */
+}
+
+.copilot a { color: white; text-decoration: none; font-weight: bold; }
+.copilot a:hover { color: gold; }
+.copilot h1, .copilot h2, .copilot p { color: white; text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
+
+/* ===========================
+   🌈 Animations
+   =========================== */
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 :root {
   --chance-color: #000000; /* Black */
   --ryan-color: #5CB3FF; /* Crystal Blue */
@@ -106,189 +171,4 @@ body {
   --gameroom-color: #39FF14; /* Neon Green */
   --home-color: #f5f5dc; /* Pale Cream */
   --thenewsroom-color: #F1F1F1 /* Light Grey */
-}
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-footer a {
-  display: inline-block;
-  margin: 5px;
-  padding: 10px 20px;
-  text-align: center;
-  font-size: 1rem;
-  background-color: #f0f0f0;
-  border-radius: 8px;
-  text-decoration: none;
-}
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  padding: 20px;
-}
-.chance-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--chance-color);
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.ryan-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--ryan-color);
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.courtney-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--courtney-color);
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.mom-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--mom-color);
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.tyler-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--tyler-color);
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.ethan-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--ethan-color);
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.brooke-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--brooke-color);
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.home-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--home-color);
-  text-shadow: 
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.gameroom-button {
-  font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--gameroom-color);
-  text-shadow: 
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-.thenewsroom-button {
-   font: bold 16px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: var(--thenewsroom-color);
-  text-shadow: 
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
-  padding: 16px 24px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-
-h1 {
-  text-align: center;
-}
-body {
-  font-family: Georgia, serif;
-  background-color: #f5f5dc; /* Pale Cream */
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
-}
-
-.news-header {
-  text-align: center;
-  font-size: 2em;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  color: #4a3f2f;
-}
-
-.news-article {
-  background-color: #fffdf7;
-  border: 2px solid #ccc5b9;
-  border-radius: 12px;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 700px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.news-article h3 {
-  font-style: italic;
-  color: #5a4220;
-}
-
-.news-article p {
-  margin-bottom: 10px;
 }
