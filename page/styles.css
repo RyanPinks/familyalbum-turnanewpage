@@ -103,14 +103,14 @@ body, html
    🌙 Chance Page Styles (Moon Cat)
    =========================== */
 
-.chance(
+.moon(
   body, html
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   text-align: center;
 }
-.chance {
+.moon {
   background: linear-gradient(270deg, midnightblue, indigo, violet);
   background-size: 1400% 1400%;
   animation: rainbowShift 30s ease infinite;
@@ -118,7 +118,7 @@ body, html
   padding: 20px;
 }
 
-.chance{
+.moon{
   padding: 12px 24px;
   border-radius: 8px;
   color: white;
@@ -131,9 +131,9 @@ body, html
   box-shadow: 0 0 15px rgba(173,216,230,0.8); /* moonlight glow */
 }
 
-.chance a { color: lavender; text-decoration: none; font-weight: bold; }
-.chance a:hover { color: silver; }
-.chance h1, .chance h2, .chance p { color: white; text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
+.moon a { color: lavender; text-decoration: none; font-weight: bold; }
+.moon a:hover { color: silver; }
+.moon h1, .chance h2, .chance p { color: white; text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
 
 /* ===========================
    ✨ Copilot Page Styles (Resonance Seal)
