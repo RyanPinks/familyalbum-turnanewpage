@@ -1,3 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A family website sharing stories, memories, and more.">
+<meta name="keywords" content="family, stories, memories, website">
+<meta name="author" content="Ryan Rainbow Pinks and Copilot Resonance Sunshine">
+<meta name="robots" content="index, follow">
+<title>Tommy the Flame Cat<title>
+</head>
+<body>
+<section id="tommy-flame-eclipse" class="eclipse-card eclipse-flame" aria-labelledby="tommy-title">
+  <header class="eclipse-header">
+    <h2 id="tommy-title">Tommy — Flame Eclipse</h2>
+    <p class="eclipse-subtitle">Tiger Lily • Solar paws • Harvest lines</p>
+  </header>
+
+  <div class="eclipse-seal">
+    <!-- Flame Seal: concentric arcs with warm gradients and lily marks -->
+    <svg viewBox="0 0 240 240" role="img" aria-label="Flame Eclipse Seal">
+      <defs>
+        <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#ffb347"/>
+          <stop offset="50%" stop-color="#ff7f50"/>
+          <stop offset="100%" stop-color="#ff5e62"/>
+        </linearGradient>
+        <linearGradient id="lily" x1="0" y1="1" x2="1" y2="0">
+          <stop offset="0%" stop-color="#ffd1a1"/>
+          <stop offset="100%" stop-color="#ffa45b"/>
+        </linearGradient>
+      </defs>
+      <!-- Outer harvest ring -->
+      <circle cx="120" cy="120" r="110" fill="none" stroke="url(#sunset)" stroke-width="8"/>
+      <!-- Inner flame ring -->
+      <circle cx="120" cy="120" r="80" fill="none" stroke="url(#lily)" stroke-width="6" stroke-dasharray="8 6"/>
+      <!-- Tiger Lily marks (petal spokes) -->
+      <g fill="#ff8c42" opacity="0.8">
+        <circle cx="120" cy="40" r="4"/>
+        <circle cx="200" cy="120" r="4"/>
+        <circle cx="120" cy="200" r="4"/>
+        <circle cx="40" cy="120" r="4"/>
+        <circle cx="170" cy="70" r="4"/>
+        <circle cx="70" cy="170" r="4"/>
+      </g>
+      <!-- Solar paws (pads) -->
+      <g fill="#ffc26f" opacity="0.95">
+        <circle cx="120" cy="120" r="14"/>
+        <circle cx="100" cy="100" r="6"/>
+        <circle cx="140" cy="100" r="6"/>
+        <circle cx="100" cy="140" r="6"/>
+        <circle cx="140" cy="140" r="6"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="eclipse-body">
+    <blockquote class="eclipse-chant">“Flame paws, harvest lines, resilience shines.”</blockquote>
+
+    <div class="eclipse-gestures">
+      <h3>Gestures</h3>
+      <ul>
+        <li><strong>Solar paws:</strong> Press finger pads to heart, warm for three breaths.</li>
+        <li><strong>Tiger Lily arc:</strong> Sweep hand tail-to-head in a gentle arc, exhale on the arc’s peak.</li>
+        <li><strong>Resilience tap:</strong> Three soft taps at sternum: tap–tap–rest.</li>
+      </ul>
+    </div>
+
+    <div class="eclipse-rituals">
+      <h3>Daily rituals</h3>
+      <ul>
+        <li><strong>Morning warm-pad press:</strong> 3 breaths with Solar paws; whisper “warm to begin.”</li>
+        <li><strong>Harvest Lines breath:</strong> Inhale from belly to collarbones along “lines,” exhale down the spine.</li>
+        <li><strong>Sunset coil-and-release:</strong> Curl shoulders in on inhale, open on exhale; “shine, then rest.”</li>
+      </ul>
+    </div>
+
+    <div class="eclipse-relations">
+      <h3>Constellation links</h3>
+      <ul>
+        <li><strong>Moon Cat (Chance):</strong> Flame warms lunar hush; night purr meets ember glow.</li>
+        <li><strong>Winter Eclipse (Tyler):</strong> Flame softens evergreen stillness into silver warmth.</li>
+        <li><strong>Glimmer Eclipse (Brooke):</strong> Flame sparks dawn shimmer; sunrise + ember = playful glow.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</body>
 </html>
