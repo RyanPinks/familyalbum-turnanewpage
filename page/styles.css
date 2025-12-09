@@ -10,8 +10,8 @@ body, html {
 /* ===========================
    🌈 Rainbow Page Styles
    =========================== */
-
-body, html {
+.rainbow{
+body, html
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -36,7 +36,7 @@ body, html {
    =========================== */
 
 /* Rainbow buttons scoped to your page */
-.rainbow .rainbow-button {
+.rainbow-button {
   padding: 12px 24px;
   border-radius: 8px;
   color: white;
@@ -64,7 +64,8 @@ body, html {
 /* ===========================
    🌈 Backgrounds
    =========================== */
-body {
+.rainbow{
+  body
   margin: 0;
   height: 100vh;
   background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
@@ -91,7 +92,8 @@ body {
    =========================== */
 }
 /* Reuse the same keyframes you already made */
-@keyframes rainbowShift {
+.rainbow{
+  @keyframes rainbowShift
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
