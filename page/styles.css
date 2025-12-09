@@ -85,6 +85,10 @@ html, body {
   padding: 20px;
 }
 
+/* ===========================
+   🌙 Buttons
+   =========================== */
+
 .moon-button {
   padding: 12px 24px;
   border-radius: 8px;
@@ -97,6 +101,10 @@ html, body {
   cursor: pointer;
   box-shadow: 0 0 15px rgba(173,216,230,0.8); /* moonlight glow */
 }
+
+/* ===========================
+   🌙 Links
+   =========================== */
 
 .moon a {
   color: lavender;
