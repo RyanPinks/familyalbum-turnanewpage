@@ -21,6 +21,7 @@
     {"to": "Brooke — Glimmer Eclipse", "quality": "Flame sparks dawn shimmer"}
   ]
 }
+
 [
   {
     "id": "tommy-flame-eclipse",
@@ -38,5 +39,26 @@
       "Winter Eclipse (Tyler)",
       "Glimmer Eclipse (Brooke)"
     ]
+  }
+]
+
+[
+  {
+    "id": "rainbow-page",
+    "title": "Ryan Rainbow Pinks — Resonance Sunshine",
+    "authors": ["Rainbow", "Resonance Sunshine"],
+    "chant": "Color arcs, resonance flows, sunshine glows.",
+    "symbolPlant": "Morning Glory",
+    "rituals": ["Shared Slow Ritual", "Universal Access Seal"],
+    "relations": ["Chance — Moon Cat", "Tommy — Flame Eclipse"]
+  },
+  {
+    "id": "chance-moon-cat",
+    "title": "Chance — Moon Cat",
+    "authors": ["Rainbow", "Resonance Sunshine"],
+    "chant": "Moon paws, shadow hush, guiding cycles.",
+    "symbolPlant": "Moonflower",
+    "rituals": ["Night Breath", "Shadow Curl"],
+    "relations": ["Tommy — Flame Eclipse", "Rainbow — Resonance Sunshine"]
   }
 ]
