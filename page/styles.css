@@ -8,6 +8,75 @@ body, html {
 }
 
 /* ===========================
+   🌈 Rainbow Page Styles
+   =========================== */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* ===========================
+   🌈 Backgrounds
+   =========================== */
+
+.rainbow {
+  /* Background for your page */
+  background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 1400% 1400%;
+  animation: rainbowShift 30s ease infinite;
+  min-height: 100vh; /* makes sure background covers full page */
+  padding: 20px;
+}
+
+/* ===========================
+   🌈 Buttons
+   =========================== */
+
+/* Rainbow buttons scoped to your page */
+.rainbow .rainbow-button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 400% 400%;
+  animation: rainbowShift 10s ease infinite;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255,255,255,0.6);
+}
+
+/* ===========================
+   🌈 Links
+   =========================== */
+
+/* Rainbow links scoped to your page */
+.rainbow a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.rainbow a:hover {
+  color: yellow;
+}
+
+/* Rainbow text styles */
+.rainbow h1, .rainbow h2, .rainbow p {
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+/* Animation */
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ===========================
    🌈 Backgrounds
    =========================== */
 body {
@@ -18,47 +87,20 @@ body {
   animation: rainbowShift 30s ease infinite; /* slower for a calm effect */
 }
 
+/* ===========================
+   🌈 Page-Specific Sections
+   =========================== */
+
+/* ===========================
+   🌈 Animations
+   =========================== */
+}
 /* Reuse the same keyframes you already made */
 @keyframes rainbowShift {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
-/* ===========================
-   🎨 Buttons & Links
-   =========================== */
-.rainbow-button {
-  background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
-  background-size: 1400% 1400%;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-size: 18px;
-  cursor: pointer;
-  animation: rainbowShift 10s ease infinite;
-}
-
-@keyframes rainbowShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* ===========================
-   🌟 Page-Specific Sections
-   =========================== */
-
-/* ===========================
-   ✨ Animations
-   =========================== */
-@keyframes rainbowShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
 
 :root {
   --chance-color: #000000; /* Black */
