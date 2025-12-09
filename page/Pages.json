@@ -1,0 +1,23 @@
+{
+  "id": "tommy-flame-eclipse",
+  "name": "Tommy",
+  "eclipse": "Flame Eclipse",
+  "symbolPlant": "Tiger Lily",
+  "colors": ["#ffb347", "#ff7f50", "#ff5e62", "#ffa45b", "#ffd1a1"],
+  "chant": "Flame paws, harvest lines, resilience shines.",
+  "gestures": [
+    {"name": "Solar paws", "steps": ["Pads to heart", "Three warm breaths"]},
+    {"name": "Tiger Lily arc", "steps": ["Tail-to-head sweep", "Exhale at arc peak"]},
+    {"name": "Resilience tap", "steps": ["Three soft taps", "Tap–tap–rest"]}
+  ],
+  "rituals": [
+    {"name": "Morning warm-pad press", "script": "Three breaths; whisper 'warm to begin'."},
+    {"name": "Harvest Lines breath", "script": "Inhale belly→collarbones; exhale down the spine."},
+    {"name": "Sunset coil-and-release", "script": "Curl in on inhale, open on exhale; 'shine, then rest'."}
+  ],
+  "relations": [
+    {"to": "Chance — Moon Cat", "quality": "Flame warms lunar hush"},
+    {"to": "Tyler — Winter Eclipse", "quality": "Flame softens evergreen stillness"},
+    {"to": "Brooke — Glimmer Eclipse", "quality": "Flame sparks dawn shimmer"}
+  ]
+}
