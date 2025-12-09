@@ -11,9 +11,18 @@ body, html {
    🌈 Backgrounds
    =========================== */
 body {
+  margin: 0;
+  height: 100vh;
   background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
   background-size: 1400% 1400%;
-  animation: rainbowShift 30s ease infinite;
+  animation: rainbowShift 30s ease infinite; /* slower for a calm effect */
+}
+
+/* Reuse the same keyframes you already made */
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* ===========================
@@ -40,13 +49,6 @@ body {
 /* ===========================
    🌟 Page-Specific Sections
    =========================== */
-#brooke-page .rainbow-button {
-  box-shadow: 0 0 20px pink;
-}
-
-#tyler-page .rainbow-button {
-  box-shadow: 0 0 20px silver;
-}
 
 /* ===========================
    ✨ Animations
