@@ -23,7 +23,6 @@ body, html
    =========================== */
 
 .rainbow {
-  /* Background for your page */
   background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
   background-size: 1400% 1400%;
   animation: rainbowShift 30s ease infinite;
@@ -59,18 +58,6 @@ body, html
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
-}
-
-/* ===========================
-   🌈 Backgrounds
-   =========================== */
-.rainbow{
-  body
-  margin: 0;
-  height: 100vh;
-  background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
-  background-size: 1400% 1400%;
-  animation: rainbowShift 30s ease infinite; /* slower for a calm effect */
 }
 
 /* ===========================
