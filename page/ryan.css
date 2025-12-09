@@ -1,4 +1,15 @@
 body {
-  background-color: #5CB3FF; /* Crystal Blue */
-  text-align: center
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 1400% 1400%;
+  animation: rainbowShift 30s ease infinite; /* slower for a calm effect */
 }
+
+/* Reuse the same keyframes you already made */
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
