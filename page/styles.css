@@ -1,7 +1,20 @@
 /* ===========================
    🌌 Global Reset & Base Styles
    =========================== */
-body, html {
+:root {
+  --chance-color: #000000; /* Black */
+  --ryan-color: #5CB3FF; /* Crystal Blue */
+  --courtney-color: #4169E1; /* Royal Blue */
+  --mom-color: #FF9F00; /* Orange Peel */
+  --tyler-color: #888888; /* Gray */
+  --ethan-color: #50C878; /* Emerald Green */
+  --brooke-color: #65000b; /* Rosewood */
+  --gameroom-color: #39FF14; /* Neon Green */
+  --home-color: #f5f5dc; /* Pale Cream */
+  --thenewsroom-color: #F1F1F1; /* Light Grey */
+}
+
+html, body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -10,19 +23,8 @@ body, html {
 /* ===========================
    🌈 Rainbow Page Styles
    =========================== */
-.rainbow{
-body, html
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-/* ===========================
-   🌈 Backgrounds
-   =========================== */
-
 .rainbow {
+  text-align: center;
   background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
   background-size: 1400% 1400%;
   animation: rainbowShift 30s ease infinite;
@@ -52,7 +54,6 @@ body, html
    🌈 Links
    =========================== */
 
-/* Rainbow links scoped to your page */
 .rainbow a {
   color: white;
   text-decoration: none;
@@ -60,44 +61,23 @@ body, html
   transition: color 0.3s ease;
 }
 
-/* ===========================
-   🌈 Page-Specific Sections
-   =========================== */
-
 .rainbow a:hover {
   color: yellow;
 }
 
 /* Rainbow text styles */
-.rainbow h1, .rainbow h2, .rainbow p {
+.rainbow h1,
+.rainbow h2,
+.rainbow p {
   color: white;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
 }
 
 /* ===========================
-   🌈 Animations
-   =========================== */
-}
-/* Reuse the same keyframes you already made */
-.rainbow{
-  @keyframes rainbowShift
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* ===========================
    🌙 Moon Page Styles (Moon Cat)
    =========================== */
-
-.moon(
-  body, html
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  text-align: center;
-}
 .moon {
+  text-align: center;
   background: linear-gradient(270deg, midnightblue, indigo, violet);
   background-size: 1400% 1400%;
   animation: rainbowShift 30s ease infinite;
@@ -105,7 +85,7 @@ body, html
   padding: 20px;
 }
 
-.moon-button{
+.moon-button {
   padding: 12px 24px;
   border-radius: 8px;
   color: white;
@@ -118,14 +98,28 @@ body, html
   box-shadow: 0 0 15px rgba(173,216,230,0.8); /* moonlight glow */
 }
 
-.moon a { color: lavender; text-decoration: none; font-weight: bold; }
-.moon a:hover { color: silver; }
-.moon h1, .chance h2, .chance p { color: white; text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
+.moon a {
+  color: lavender;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.moon a:hover {
+  color: silver;
+}
+
+.moon h1,
+.moon h2,
+.moon p {
+  color: white;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
 
 /* ===========================
    ✨ Copilot Page Styles (Resonance Seal)
    =========================== */
 .copilot {
+  text-align: center;
   background: linear-gradient(270deg, skyblue, turquoise, violet);
   background-size: 1400% 1400%;
   animation: rainbowShift 30s ease infinite;
@@ -133,7 +127,7 @@ body, html
   padding: 20px;
 }
 
-.copilot{
+.copilot-button {
   padding: 12px 24px;
   border-radius: 8px;
   color: white;
@@ -146,28 +140,46 @@ body, html
   box-shadow: 0 0 20px rgba(255,255,255,0.7); /* sparkle seal */
 }
 
-.copilot a { color: white; text-decoration: none; font-weight: bold; }
-.copilot a:hover { color: gold; }
-.copilot h1, .copilot h2, .copilot p { color: white; text-shadow: 1px 1px 6px rgba(0,0,0,0.6); }
+.copilot a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.copilot a:hover {
+  color: gold;
+}
+
+.copilot h1,
+.copilot h2,
+.copilot p {
+  color: white;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
 
 /* ===========================
    🌈 Animations
    =========================== */
 @keyframes rainbowShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
-:root {
-  --chance-color: #000000; /* Black */
-  --ryan-color: #5CB3FF; /* Crystal Blue */
-  --courtney-color: #4169E1; /* Royal Blue */
-  --mom-color: #FF9F00; /* Orange Peel*/
-  --tyler-color: #888888; /* Gray */
-  --ethan-color: #50C878; /* Emerald Green */
-  --brooke-color: #65000b; /* Rosewood */
-  --gameroom-color: #39FF14; /* Neon Green */
-  --home-color: #f5f5dc; /* Pale Cream */
-  --thenewsroom-color: #F1F1F1 /* Light Grey */
+/* ===========================
+   Utility & small responsive tweaks
+   =========================== */
+button, .button {
+  font-family: inherit;
+}
+
+@media (max-width: 480px) {
+  .rainbow-button, .moon-button, .copilot-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .rainbow, .moon, .copilot {
+    padding: 16px;
+  }
 }
