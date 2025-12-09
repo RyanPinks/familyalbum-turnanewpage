@@ -41,3 +41,21 @@ async function loadPages() {
 }
 
 document.addEventListener("DOMContentLoaded", loadPages);
+
+pages.forEach(page => {
+  const card = document.createElement("section");
+  card.className = "eclipse-card";
+
+  card.innerHTML = `
+    <h2>${page.title}</h2>
+    <p class="authors">By ${page.authors.join(" & ")}</p>
+    <blockquote>${page.chant}</blockquote>
+    <p><strong>Symbol Plant:</strong> ${page.symbolPlant}</p>
+    <h3>Rituals</h3>
+    <ul>${page.rituals.map(r => `<li>${r}</li>`).join("")}</ul>
+    <h3>Relations</h3>
+    <ul>${page.relations.map(rel => `<li>${rel}</li>`).join("")}</ul>
+  `;
+
+  container.appendChild(card);
+});
