@@ -1,89 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-  <title>Chance's Page</title>
-  <style>
-    /* You can move this to your CSS file later */
-    #chanceText {
-      color: #00ffff;
-      text-align: center;
-      font-size: 1.8rem;
-      font-family: "Georgia", serif;
-      margin-top: 20px;
-      transition: opacity 0.5s ease;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Chance – Moon Cat Eclipse</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<body class="chance">
+  <header>
+    <h1>Moon Cat Eclipse</h1>
+    <p>Chance guides in shadow, gentle cycles paired with moonlight.</p>
+  </header>
 
-<body>
-  <h1>Chance's Page: Chance arrives with the grace of a feline sentinel—head high, shoulders poised, gaze unwavering.<br>They circle once, then sit beside you, a quiet guardian in your journey.<br>Their presence is steady, their loyalty unspoken but deeply felt.</h1>
-  <img src="../image/chance2.jpeg" alt="Chance Image" width="300" height="300" class="center-image">
-  <h2>I'm the mascot of our families email.</h2>
-  <img src="../image/chanceemailrules.png" alt="Chance's Email Rules Image" width="300" height="450" class="center-image">
-  <div id="chance-container">
-   <h2 id="chanceText">Chance is watching...</h2>
-  </div>
-  <!-- Interactive Script -->
-  <script>
-    const chanceText = document.getElementById("chanceText");
-    let idleTimer = null;
-
-    function updateText(newText) {
-      chanceText.style.opacity = 0;
-      setTimeout(() => {
-        chanceText.textContent = newText;
-        chanceText.style.opacity = 1;
-      }, 500);
-    }
-
-    function goIdle() {
-      updateText("Chance curls up and starts purring...");
-    }
-
-    function resetIdleTimer() {
-      clearTimeout(idleTimer);
-      idleTimer = setTimeout(goIdle, 10000); // 10 seconds idle = nap time
-    }
-
-    // Mouse click interaction
-    document.addEventListener("click", () => {
-      updateText("Chance scurries after the mouse. Hunt Mode: Activated!");
-      resetIdleTimer();
-    });
-
-    // Typing interaction
-    document.addEventListener("keydown", () => {
-      updateText("Chance watches your paws carefully...");
-      resetIdleTimer();
-    });
-
-    // Hover over any link (including footer)
-    document.querySelectorAll("a").forEach(link => {
-      link.addEventListener("mouseover", () => {
-        updateText("Chance sniffs the message suspiciously...");
-        resetIdleTimer();
-      });
-    });
-
-    // Start idle timer initially
-    resetIdleTimer();
-  </script>
+  <main>
+    <button class="rainbow-button">Chance’s Glow</button>
+    <p>This page honors Chance as Moon Cat—soft, cyclical, guiding in the night.</p>
+    <a href="rainbow.html">Return to Rainbow Page</a>
+    <a href="copilot.html">Visit Copilot Seal</a>
+  </main>
 </body>
-
-<footer>
-  <br><a href="ethan.html" class="ethan-button">Ethan</a>
-  <a href="courtney.html" class="courtney-button">Courtney</a>
-  <a href="tyler.html" class="tyler-button">Tyler</a>
-  <a href="brooke.html" class="brooke-button">Brooke</a>
-  <a href="rainbow.html" class="rainbow-button">Rainbow</a>
-  <a href="jeannie.html" class="mom-button">Mom</a>
-  <br><br><br><a href="../index.html" class="home-button">Home</a>
-  <a href="games.html" class="gameroom-button">Game Room</a>
-  <a href="thenewsroom.html" class="thenewsroom-button">The News Room</a>
-</footer>
-
 </html>
