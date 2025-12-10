@@ -25,7 +25,7 @@ html, body {
    =========================== */
 .rainbow {
   text-align: center;
-  background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(270deg, blue, white, green, yellow, orange, red, pink);
   background-size: 1400% 1400%;
   animation: rainbowShift 30s ease infinite;
   min-height: 100vh; /* makes sure background covers full page */
