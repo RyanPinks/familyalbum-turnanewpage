@@ -9,7 +9,7 @@
 <meta name="robots" content="index, follow">
 <title>Tommy the Flame Cat<title>
 </head>
-<body>
+<body class="tommy">
 <section id="tommy-flame-eclipse" class="eclipse-card eclipse-flame" aria-labelledby="tommy-title">
   <header class="eclipse-header">
     <h2 id="tommy-title">Tommy — Flame Eclipse</h2>
