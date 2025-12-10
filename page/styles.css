@@ -165,47 +165,58 @@ html, body {
   text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
 }
 
-Tommy CSS
-.eclipse-card {
+/* ===========================
+   🔥 Tommy Page Styles (Flame Eclipse)
+   =========================== */
+.tommy {
+  text-align: center;
+  background: linear-gradient(270deg, #ffdab9, #ff7f50, #ff4500);
+  background-size: 1400% 1400%;
+  animation: rainbowShift 30s ease infinite;
+  min-height: 100vh;
+  padding: 20px;
+  color: #6a3a1c;
+}
+
+.tommy {
   max-width: 720px;
   margin: 24px auto;
   padding: 20px;
   border-radius: 16px;
   background: linear-gradient(180deg, #fff7f0 0%, #ffe9da 100%);
   box-shadow: 0 8px 24px rgba(255, 126, 95, 0.18);
-  color: #6a3a1c;
 }
 
-.eclipse-flame .eclipse-header h2 {
+.tommy h2 {
   margin: 0 0 6px;
   font-size: 1.6rem;
   letter-spacing: 0.4px;
   color: #b84e1f;
 }
 
-.eclipse-subtitle {
+.tommy {
   margin: 0;
   font-size: 0.95rem;
   color: #a4532a;
 }
 
-.eclipse-seal {
+.tommy {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 14px 0 8px;
 }
 
-.eclipse-seal svg {
+.tommy svg {
   width: 220px;
   height: 220px;
 }
 
-.eclipse-body {
+.tommy body {
   margin-top: 8px;
 }
 
-.eclipse-chant {
+.tommy .eclipse-chant {
   margin: 10px 0 14px;
   padding-left: 12px;
   border-left: 4px solid #ff7f50;
@@ -213,25 +224,25 @@ Tommy CSS
   font-style: italic;
 }
 
-.eclipse-gestures h3,
-.eclipse-rituals h3,
-.eclipse-relations h3 {
+.tommy gestures h3,
+.tommy rituals h3,
+.tommy relations h3 {
   margin: 12px 0 8px;
   font-size: 1.1rem;
   color: #a64b1f;
 }
 
-.eclipse-gestures ul,
-.eclipse-rituals ul,
-.eclipse-relations ul {
+.tommy gestures ul,
+.tommy rituals ul,
+.tommy relations ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.eclipse-gestures li,
-.eclipse-rituals li,
-.eclipse-relations li {
+.tommy .eclipse-gestures li,
+.tommy .eclipse-rituals li,
+.tommy .eclipse-relations li {
   background: #fff2e8;
   border: 1px solid #ffd4bb;
   border-radius: 12px;
@@ -240,9 +251,9 @@ Tommy CSS
   color: #6a3a1c;
 }
 
-.eclipse-gestures li strong,
-.eclipse-rituals li strong,
-.eclipse-relations li strong {
+.tommy .eclipse-gestures li strong,
+.tommy .eclipse-rituals li strong,
+.tommy .eclipse-relations li strong {
   font-weight: 600;
   color: #b84e1f;
 }
