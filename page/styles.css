@@ -178,6 +178,30 @@ html, body {
   color: #6a3a1c;
 }
 
+body.tommy {
+  background: linear-gradient(270deg, #ffdab9, #ff7f50, #ff4500);
+  background-size: 1400% 1400%;
+  animation: rainbowShift 30s ease infinite;
+  min-height: 100vh;
+  padding: 20px;
+  color: #6a3a1c;
+}
+
+
+.tommy-button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff7f50, #ff6347, #ffd700);
+  background-size: 400% 400%;
+  animation: rainbowShift 10s ease infinite;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255,140,0,0.6); /* ember glow */
+}
+
+
 .tommy {
   max-width: 720px;
   margin: 24px auto;
